@@ -8,6 +8,8 @@
 <body>
     <h2>Detalle de la Cotización</h2>
     <%
+
+    //parametros
         String cliente = request.getParameter("cliente");
         String producto = request.getParameter("producto");
         String cantidad = request.getParameter("cantidad");
